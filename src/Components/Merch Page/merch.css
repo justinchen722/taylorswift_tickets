@@ -1,0 +1,80 @@
+
+.body{
+    background-image: url('/Users/justinchen/Developer/taylorswift_tickets/public/flat,750x,075,f-pad,750x1000,f8f8f8.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.titlem {
+    font-size: 8vw;
+    font-weight: bolder;
+    color: black;
+    padding: 20px;
+}
+
+.all-items{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.item{
+    border: 2px solid black;
+	overflow: hidden;
+	background: #ffffff;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+}
+
+.item:hover img{
+	scale:  1.1;
+}
+
+.item:hover {
+	box-shadow: 0px 15px 0px #03bcf4;
+}
+
+.item img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.item:hover .hidden{
+	opacity: 1;
+}
+
+.buy-button {
+	width: 1000px;
+	height: 50px;
+	border-radius: 20%;
+	background-color: orange;
+	font-weight: bold;
+	transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+	background-color: darkorange;
+}
+
+.cat {
+	position: absolute;
+	width: 8vw;
+	margin-left: 55vw;
+	
+}
