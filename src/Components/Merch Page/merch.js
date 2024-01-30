@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
-
+/*Merch Page */
 function Merch() {
     const socialstyle = {
         display: "absolute",
