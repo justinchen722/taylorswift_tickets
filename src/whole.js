@@ -10,6 +10,9 @@ function Taylor() {
     case "/home":
       Components = Home
       break
+    case "/":
+      Components = Home
+      break
     case "/merch":
       Components = Store
       break

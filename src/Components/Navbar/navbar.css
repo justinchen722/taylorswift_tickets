@@ -39,7 +39,7 @@ nav {
     color: white;
     font-weight: bold;
     grid-column: 2;
-    text-decoration: none;
+    text-decoration: underline black;
   }
   
   .merch {
